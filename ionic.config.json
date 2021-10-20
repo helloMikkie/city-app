@@ -1,0 +1,8 @@
+{
+  "name": "City_App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "8feed3dd"
+}
