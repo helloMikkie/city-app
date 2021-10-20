@@ -25,6 +25,9 @@ export const _Card: React.FC = () => {
 
 const Card = styled(IonCard)`
 border: 3px solid red; 
+@media (min-width: 40rem){
+    border: 10px solid green;
+}
 `
 const CardHeader= styled(IonCardHeader)`
 font-size: 24px; 
