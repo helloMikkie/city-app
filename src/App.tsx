@@ -4,6 +4,9 @@ import { Redirect, Route } from 'react-router-dom';
 import Menu from './components/Menu';
 
 import Page from './pages/Page';
+import NewItem from './pages/NewItem';
+import Projects from './pages/Projects'
+import _Card from './components/Card';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -22,7 +25,10 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 
 /* Theme variables */
+
 import './theme/variables.css';
+import './theme/global.css';
+
 
 const App: React.FC = () => {
   return (
@@ -38,6 +44,8 @@ const App: React.FC = () => {
             <Route path="/page/:name" exact={true}>
               <Page />
             </Route>
+            <Route path="/new" component={NewItem} />
+            <Route path="/projects" component={Projects} />
           </IonRouterOutlet>
         </IonSplitPane>
       </IonReactRouter>

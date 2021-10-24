@@ -1,0 +1,22 @@
+@font-face{
+    font-family:'Euclid';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../assets/fonts/EuclidCircularA-Regular-WebS.woff2), url(../assets/fonts/EuclidCircularA-Regular-WebS.woff2);
+}
+
+@font-face{
+    font-family:'Euclid';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/EuclidCircularA-Bold-WebS.woff2), url(../assets/fonts/EuclidCircularA-Bold-WebS.woff);
+} 
+
+/* ion-button{
+    width: 300px; 
+} */
+
+*{
+    font-size: 1rem; 
+     
+}

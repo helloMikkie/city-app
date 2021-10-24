@@ -11,16 +11,16 @@ const Page: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonButtons slot="start">
+          <IonButtons slot="end">
             <IonMenuButton />
           </IonButtons>
           <IonTitle>{name}</IonTitle>
         </IonToolbar>
       </IonHeader>
 
-      <IonContent fullscreen>
+      <IonContent>
         <IonHeader collapse="condense">
-          <IonToolbar>
+          <IonToolbar className="red">
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
